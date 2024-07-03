@@ -24,18 +24,18 @@ const imageAltText = "Background image";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  " I am a student at University of Petroleum and Energy Studies, Dehradun. I am pursuing B.Tech in Computer Science and Engineering. I am a UI/UX enthusiast and a passionate learner. I am always looking for new opportunities to learn and grow.";
+  "I am an Android developer and web developer with a strong passion for building innovative and user-friendly applications. My technical skills span across multiple programming languages and frameworks, allowing me to create seamless experiences on both mobile and web platforms. I am always eager to learn and grow, and I thrive in collaborative environments where I can work alongside experienced professionals to solve complex challenges and deliver high-quality solutions.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Web Development",
-  "Content creation",
-  "Mobile user interfaces",
+  "Web development",
+  "Android Development",
+  "Video Editing",
+  "Photo Editing",
+  "Android Studio",
   "Graphic design",
 ];
 
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am a passionate learner and always looking for new opportunities to learn and grow. I am a UI/UX enthusiast and a passionate learner. I am always looking for new opportunities to learn and grow.";
+  "I am a passionate learner and dedicated Android and web developer, always seeking new opportunities to expand my knowledge and skills. I thrive in collaborative environments and am eager to work with experienced professionals to grow and contribute effectively.";
 
 const About = () => {
   return (
@@ -60,7 +60,9 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2 style={{
+          color: '#000'
+        }}>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
         <ul

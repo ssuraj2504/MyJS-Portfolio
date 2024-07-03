@@ -29,7 +29,7 @@ const siteProps = {
   email: "raykar.s2504@gmail.com",
   gitHub: "ssuraj2504",
   instagram: "s_suraj_2504",
-  linkedIn: "Suraj Raykar",
+  linkedIn: "suraj-raykar-66361127b/",
   medium: "",
   twitter: "",
   youTube: "",

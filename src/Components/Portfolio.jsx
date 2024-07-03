@@ -31,40 +31,40 @@ const imageAltText = "Snippet from my Github Account";
  */
 const projectList = [
   {
-    title: "Learning Management System",
+    title: "XO-Game",
     description:
-      "Developed a Learning Management System for a university project. It includes features like course management, user management, and quiz management.",
-    url: "https://github.com/Yashasvi-30/Learning-Management-System-",
+      "Developed a XO-Game with a interactive user experience and features like restarting, multiplayer, etc.",
+    url: "https://github.com/ssuraj2504/XO-Game",
   },
   {
-    title: "Myntra Clone",
+    title: "BMI Calculator",
     description:
-      "Developed a Myntra Clone for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/MyMyntraClone",
+      "Developed a BMI calculator by taking height and weight of a person as input. it has feature which tells how much weight should gain or loose for a person.",
+    url: "https://github.com/ssuraj2504/BMI-Calculator",
   },
   {
-    title: "Amazon Clone",
+    title: "My Resume",
     description:
-      " Developed an Amazon Clone for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/AmazonClone",
+      " Developed a website which showcase my resume and hosted it on gihub pages.",
+    url: "https://github.com/ssuraj2504/myresume",
   },
   {
-    title: "Supermarket Management System",
+    title: "Completed DSA",
     description:
-      "Developed a Supermarket Management System for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/Supermarket-JAVA-Proj",
+      "I have completed DSA course provided by coding ninjas.",
+    url: "https://drive.google.com/file/d/1yTvdkMULQCWYzxU2lx3qAOwt_OYudYGj/view?usp=sharing",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center"}}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "slideInLeft 1s ease-out" }}
             alt={imageAltText}
           />
         </div>
