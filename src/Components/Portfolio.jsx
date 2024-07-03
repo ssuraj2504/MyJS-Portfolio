@@ -22,6 +22,9 @@ import React from "react";
 import image from "../images/BG3.png";
 
 const imageAltText = "Snippet from my Github Account";
+<style>
+  
+</style>
 
 /**
  * Project list
@@ -44,14 +47,12 @@ const projectList = [
   },
   {
     title: "My Resume",
-    description:
-      " Developed a website which showcase my resume and hosted it on gihub pages.",
+    description: " Developed a website which showcase my resume and hosted it on gihub pages.",
     url: "https://github.com/ssuraj2504/myresume",
   },
   {
     title: "Completed DSA",
-    description:
-      "I have completed DSA course provided by coding ninjas.",
+    description: "I have completed DSA course provided by coding ninjas.",
     url: "https://drive.google.com/file/d/1yTvdkMULQCWYzxU2lx3qAOwt_OYudYGj/view?usp=sharing",
   },
 ];
@@ -59,12 +60,18 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center"}}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "slideInLeft 1s ease-out" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animationName: "slideInLeft",
+              animationDuration: "2s",
+            }}
             alt={imageAltText}
           />
         </div>

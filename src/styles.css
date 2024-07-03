@@ -131,9 +131,9 @@ img.socialIcon {
 /* add a slide In Left animation */
 @keyframes slideInLeft {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-300px);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(0px);
   }
 }
